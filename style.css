@@ -1,0 +1,283 @@
+
+/* pricing section */
+
+.pricing-section{
+    background: #f6f9fc;
+}
+
+.pricing-text h6 {
+    color: #3763eb;
+    font-size: 18px;
+}
+
+.pricing-text h3 {
+    font-size: 37px;
+    margin-bottom: 35px;
+    position: relative;
+}
+
+.pricing-text h3::before {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 250px;
+    width: 47px;
+    height: 3px;
+    background: #3763eb;
+}
+
+.pricing-text p {
+    color: #a9a99b;
+    font-size: 20px;
+}
+.pricing-card {
+    background: #fff;
+    text-align: center;
+    margin-top: 40px;
+    transition: .6s;
+}
+
+.pricing-card h6 {
+    color: #213143a8;
+    font-size: 20px;
+    margin-bottom: 30px;
+    transition: 1s;
+}
+
+.pricing-card h3 {
+    color: #212529;
+    font-size: 40px;
+    margin-bottom: 95px;
+    position: relative;
+    transition: 1s;
+    font-family: 'Spartan', sans-serif;
+}
+
+.pricing-card h3::after {
+    content: "per month";
+    position: absolute;
+    bottom: -27px;
+    left: 139px;
+    font-size: 17px;
+    color: #fff;
+}
+
+.pricing-card h3::before {
+    content: "";
+    position: absolute;
+    bottom: -60px;
+    left: 80px;
+    width: 200px;
+    height: 1px;
+    background: #eaeaea;
+}
+
+.pricing-card ul li {
+    list-style: none;
+    color: #7b878e;
+    font-size: 18px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.pricing-card a {
+    text-decoration: none;
+    width: 145px;
+    height: 40px;
+    line-height: 38px;
+    background: #0d6efd;
+    color: #fff;
+    display: inline-block;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 5px;
+    border: 1px solid #0d6efd;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.pricing-card a:hover{
+    color: #fff !important;
+}
+
+.pricing-card a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #0d6efd;
+    border-radius: 20px;
+    z-index: -1;
+    transition: .4s;
+}
+
+.pricing-card a:hover::before{
+    width: 100%;
+}
+
+.pricing-card:hover{
+    background: #3a6eef;
+}
+
+.pricing-card:hover h6{
+    color: #fff;
+}
+
+.pricing-card:hover h3{
+    color: #fff;
+}
+
+.pricing-card:hover ul li{
+    color: #fff;
+}
+
+.pricing-card:hover a{
+    background: #fff;
+    color: #0d6efd;
+}
+
+/* overlay section */
+
+.overlay-section {
+    background: linear-gradient(rgba(13, 110, 253, .7),rgba(13, 110, 253, .7)),url(img/free-bg.jpg) no-repeat center center;
+    background-size: cover;
+    height: 80vh;
+}
+
+.overlay-text {
+    margin-top: 90px;
+}
+
+.overlay-text h6 {
+    font-size: 18px;
+}
+
+.overlay-text h3 {
+    font-size: 37px;
+    margin-bottom: 35px;
+    position: relative;
+}
+
+.overlay-text h3::before {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 250px;
+    width: 47px;
+    height:2px;
+    background: #fff;
+}
+
+.overlay-text p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.overlay-text a {
+    text-decoration: none;
+    width: 145px;
+    height: 40px;
+    line-height: 38px;
+    background: #fff;
+    color: #0d6efd;
+    display: inline-block;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.overlay-text a:hover{
+    color: #fff;
+}
+
+.overlay-text a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #0d6efd;
+    z-index: -1;
+    transition: .4s;
+}
+
+.overlay-text a:hover::before{
+    width: 100%;
+}
+
+/* newsletter section */
+
+.newsletter-left {
+    background: #3066ed;
+    border-radius: 3px;
+}
+
+.newsletter-left-text {
+    width: 63%;
+}
+
+.newsletter-left-text h4 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.newsletter-left-text p {
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.newsletter-left-form {
+    margin-top: 25px;
+}
+
+.newsletter-left-form .input {
+    width: 60%;
+    border-radius: 15px;
+    padding: 4px 0 4px 13px;
+    outline: none;
+    border: none;
+}
+
+.newsletter-left-form .input-submit {
+    margin-left: 20px;
+    width: 26%;
+    font-size: 17px;
+    background: #3066ed;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    padding: 2px 0;
+    font-weight: 400;
+}
+
+.newsletter-right {
+    box-shadow: 1px 1px 7px 1px rgba(1, 1, 1, .1);
+}
+
+.newsletter-right h4 {
+    color: #33393f;
+}
+
+.newsletter-right a {
+    text-decoration: none;
+    width: 110px;
+    height: 35px;
+    background: #0d6efd;
+    color: #f3f5ff;
+    display: inline-block;
+    text-align: center;
+    line-height: 33px;
+    border-radius: 20px;
+    font-weight: 500;
+    margin-top: 95px;
+}
